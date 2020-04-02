@@ -32,7 +32,6 @@ else:
 class WikiApp(App):
 
     def build(self):
-        text = 'Hello ThIS IS ME'
         document = RstDocument(text=match)
         return document
 
